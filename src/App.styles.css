@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(251, 247, 242);
+    font-family: sans-serif;
+    color: #353535;
+}
+
+.page-container{
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+   padding: 10px;
+}
+
+.page-title{
+    align-self: center;
+    font-size: 22px;
+}
+
+.buttons-container{
+    display:flex;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.tooltip{
+    display: none;
+    opacity: 0;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 5;
+    transition: 0.2s;
+    top: 0;
+    left: 0;
+}
+
+.wrapper{
+    display:flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.axis{
+    font-size: 12px;
+ }
+ 
+ .axis path, .axis line{
+     fill: none;
+     stroke: #000;
+     stroke-width: 1px;
+     shape-rendering: crispEdges;
+ }
+ 
